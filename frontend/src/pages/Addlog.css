@@ -1,0 +1,73 @@
+.body{
+    overflow: auto;
+    background-image: url('background2.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+.back {
+    background-color: #333;
+    width: fit-content;
+    color: white;
+    position: relative;
+      
+}
+.addlog {
+    padding-top:6rem ;
+    max-width: 500px;
+    margin: 0 auto;
+          
+}
+.addlog>div {
+    margin-bottom: 20px;
+    padding:2.5rem;
+    }
+.addlog label {
+    display: block;
+    margin-bottom: 5px;
+    background-color: #333;
+    }
+.addlog input[type="text"],
+.addlog input[type="date"],
+.addlog textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 12px;
+    box-sizing: border-box;
+    }
+.addlog textarea {
+    height: 150px;    
+    }
+
+.addlog .photo-links {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    }
+
+.addlog .photo-links label {
+    margin-bottom: 5px;
+    background-color: #333;
+    }
+
+.addlog .photo-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+.addlog .photo-inputs input {
+    flex: 1;
+    margin-right: 10px;
+    margin-bottom: 10px; 
+        
+}
+
+.addlog button {
+    margin-top: 10px;
+    background-color: white;
+    width:max-content;
+    backdrop-filter: none;
+}

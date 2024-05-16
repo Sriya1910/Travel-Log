@@ -1,0 +1,45 @@
+.deletebody{
+    overflow: auto;
+    background-image: url('background2.png');
+    background-size: cover;
+    height: 100vh;
+}
+.box {    
+    background-color: #333;
+    height: 25vh;
+    width: 30vw;
+    color: white;
+    margin: auto;
+    background-position: center;
+    justify-content: space-around;
+}
+
+.delete-post{
+    padding-top: 6rem;
+    max-width: 500px;
+    margin: auto;
+}
+.delete-post div{
+    padding: 2.5rem;
+}
+.delete-post label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.delete-post input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.delete-post button {
+    margin-top: 10px;
+    background-color: white;
+    width: max-content;
+}
+

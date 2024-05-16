@@ -1,0 +1,51 @@
+.body1{
+    overflow: auto;
+    background-image: url('background2.png');
+    background-size: cover;
+    height: 100vh;
+}
+.back1{
+    background-color: #333;
+    height: 40vh;
+    width: 30vw;
+    color: white;
+    background-position: center;
+    justify-content: space-around;
+}
+.deletelog {
+    padding-top: 6rem;
+    max-width: 500px;
+    margin: auto;       
+}
+.deletelog>div{
+    padding: 2.5rem;
+}
+.deletelog>form>div {
+    margin-bottom: 20px;
+}
+
+.deletelog label {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-color: #b08f64;
+}
+
+.deletelog input[type="text"],
+.deletelog input[type="date"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.deletelog button {
+    margin-top: 10px;
+    background-color: white;
+    width: max-content;
+    
+}
+

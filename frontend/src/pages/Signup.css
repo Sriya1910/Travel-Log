@@ -1,0 +1,69 @@
+.container-main_s {
+    padding-top: 5rem;    
+}
+.container_s {
+    background-color: #333;
+    padding: 2.5rem;
+    border-radius: 10px;
+    color: #fff;
+    width: 30vw;
+    margin: 0 auto;
+}
+.container_s form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container_s form input[type="email"],
+.container_s form input[type="text"],
+.container_s form input[type="password"] {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: none;
+    width: 26vw;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+h1 {
+    padding-top: 2rem;
+    color: #333;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.name {
+    width: 26vw;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    
+    background-color: #f2f2f2;
+}
+.container_s form button,
+.container_s form .link {
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.submit_s {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_s form button {
+    width: 5vw;
+
+}
+.container_s form .link {
+    width: 3vw;
+    background-color: white;
+    color: black;
+}
+.container_s form .error-message {
+    color: red;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}

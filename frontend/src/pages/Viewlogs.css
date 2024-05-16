@@ -1,0 +1,43 @@
+.log-container {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 4rem;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 50px;    
+}
+.log-box {
+    /* border: 1px solid #5c0ae0; */
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    width:20vw;
+    padding:20px;
+    margin: 10px;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+.image-box {
+    flex: 0 0 auto;
+    /* Don't grow or shrink */
+    margin:0 auto ;
+    padding-bottom: 0.5rem;
+}
+.image-box img {
+    max-width: 300px;
+    /* Adjust the maximum width of the image */
+    height: auto;
+    display: block;
+    /* Ensure image is block-level element */
+    border-radius: 5px;
+}
+
+.info-box {
+    flex: 1;   
+    /* Take remaining space */
+}
+.info-box p {
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
