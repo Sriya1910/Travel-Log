@@ -1,0 +1,44 @@
+.navb {
+    background-color: #333;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 2px;
+    height : 2.5%;
+}
+
+.nav_ulb {
+    position: absolute;
+    right: 2px;
+
+} 
+
+.navb ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #333;
+}
+
+.navb ul li {
+    margin-right: 10px;
+
+}
+
+
+.navb ul li a {
+    color: white;
+    text-decoration: none;
+    background-color: #333;
+    padding: 5px 10px;
+}
+
+.navb ul li a:hover {
+    background-color: #b08f64;
+} 
+
